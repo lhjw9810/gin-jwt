@@ -1,12 +1,12 @@
 # JWT Middleware for Gin Framework
 
-[![Run Tests](https://github.com/appleboy/gin-jwt/actions/workflows/go.yml/badge.svg)](https://github.com/appleboy/gin-jwt/actions/workflows/go.yml)
-[![GitHub tag](https://img.shields.io/github/tag/appleboy/gin-jwt.svg)](https://github.com/appleboy/gin-jwt/releases)
-[![GoDoc](https://godoc.org/github.com/appleboy/gin-jwt?status.svg)](https://godoc.org/github.com/appleboy/gin-jwt)
-[![Go Report Card](https://goreportcard.com/badge/github.com/appleboy/gin-jwt)](https://goreportcard.com/report/github.com/appleboy/gin-jwt)
+[![Run Tests](https://github.com/lhjw9810/gin-jwt/actions/workflows/go.yml/badge.svg)](https://github.com/lhjw9810/gin-jwt/actions/workflows/go.yml)
+[![GitHub tag](https://img.shields.io/github/tag/appleboy/gin-jwt.svg)](https://github.com/lhjw9810/gin-jwt/releases)
+[![GoDoc](https://godoc.org/github.com/lhjw9810/gin-jwt?status.svg)](https://godoc.org/github.com/lhjw9810/gin-jwt)
+[![Go Report Card](https://goreportcard.com/badge/github.com/lhjw9810/gin-jwt)](https://goreportcard.com/report/github.com/lhjw9810/gin-jwt)
 [![codecov](https://codecov.io/gh/appleboy/gin-jwt/branch/master/graph/badge.svg)](https://codecov.io/gh/appleboy/gin-jwt)
 [![codebeat badge](https://codebeat.co/badges/c4015f07-df23-4c7c-95ba-9193a12e14b1)](https://codebeat.co/projects/github-com-appleboy-gin-jwt)
-[![Sourcegraph](https://sourcegraph.com/github.com/appleboy/gin-jwt/-/badge.svg)](https://sourcegraph.com/github.com/appleboy/gin-jwt?badge)
+[![Sourcegraph](https://sourcegraph.com/github.com/lhjw9810/gin-jwt/-/badge.svg)](https://sourcegraph.com/github.com/lhjw9810/gin-jwt?badge)
 
 This is a middleware for [Gin](https://github.com/gin-gonic/gin) framework.
 
@@ -22,25 +22,25 @@ Download and install using [go module](https://blog.golang.org/using-go-modules)
 
 ```sh
 export GO111MODULE=on
-go get github.com/appleboy/gin-jwt/v2
+go get github.com/lhjw9810/gin-jwt/v2
 ```
 
 Import it in your code:
 
 ```go
-import "github.com/appleboy/gin-jwt/v2"
+import "github.com/lhjw9810/gin-jwt/v2"
 ```
 
 Download and install without using [go module](https://blog.golang.org/using-go-modules):
 
 ```sh
-go get github.com/appleboy/gin-jwt
+go get github.com/lhjw9810/gin-jwt
 ```
 
 Import it in your code:
 
 ```go
-import "github.com/appleboy/gin-jwt"
+import "github.com/lhjw9810/gin-jwt"
 ```
 
 ## Example
@@ -57,7 +57,7 @@ import (
   "os"
   "time"
 
-  jwt "github.com/appleboy/gin-jwt/v2"
+  jwt "github.com/lhjw9810/gin-jwt/v2"
   "github.com/gin-gonic/gin"
 )
 

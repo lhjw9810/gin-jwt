@@ -626,7 +626,7 @@ func (mw *GinJWTMiddleware) CheckIfTokenExpire(c *gin.Context) (jwt.MapClaims, e
 		// ValidationErrorExpired, we want to return the error.
 		// If the error is just ValidationErrorExpired, we want to continue, as we can still
 		// refresh the token if it's within the MaxRefresh time.
-		// (see https://github.com/appleboy/gin-jwt/issues/176)
+		// (see https://github.com/lhjw9810/gin-jwt/issues/176)
 		validationErr, ok := err.(*jwt.ValidationError)
 		if !ok || validationErr.Errors != jwt.ValidationErrorExpired {
 			return nil, err
